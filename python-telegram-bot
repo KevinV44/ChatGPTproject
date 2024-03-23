@@ -40,7 +40,7 @@ def format_movie_data(movie_data):
 
 def main():
     # Set up the Telegram bot
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+    updater = Updater("YOUR_ACTUAL_BOT_TOKEN", use_context=True)
     dispatcher = updater.dispatcher
     
     # Add command handlers
