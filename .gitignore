@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore API keys and sensitive information
+config.py
+
+# Ignore any build or distribution directories
+build/
+dist/
+
+# Ignore any cache or log files
+__pycache__/
+*.log
